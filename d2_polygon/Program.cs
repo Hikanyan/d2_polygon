@@ -6,9 +6,9 @@ class Program
 {
     static void Main()
     {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
-        var line = Console.ReadLine();
-        Console.WriteLine("XXXXXX");
+        var polygon = 0;
+        var n = int.Parse(Console.ReadLine());
+        polygon = (180 * (n - 2))/n;
+        Console.WriteLine(polygon);
     }
 }
